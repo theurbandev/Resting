@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import { Toolbar } from "./components/toolbar";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -16,8 +16,9 @@ const Home: NextPage = () => {
         <nav>
           <h1 className={styles.logo}>REST</h1>
         </nav>
-
-        <section className={styles.toolbar}></section>
+        <section className={styles.toolbar}>
+          <Toolbar />
+        </section>
       </main>
     </div>
   );
