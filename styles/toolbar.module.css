@@ -1,2 +1,26 @@
 .methodsContainer {
+  text-align: center;
+  background-color: transparent;
+  border: solid 1px orange;
+}
+
+.toolbar {
+  padding: 15px;
+  height: 100%;
+}
+
+.toolbar * {
+  height: 100%;
+  margin: 0px 3px;
+}
+
+.searchBar {
+  border: solid 1px orange;
+  padding: 0px 10px;
+}
+
+.sendButton {
+  background-color: rgba(255, 166, 2, 0.738);
+  width: 200px;
+  user-select: none;
 }

@@ -2,8 +2,10 @@ import styles from "./../../styles/toolbar.module.css";
 
 export const Toolbar = () => {
   return (
-    <div className="flex">
-      <select className={styles.methodsContainer}>
+    <div className={`flex ${styles.toolbar}`}>
+      <select
+        className={`basis-1/12 text-lg font-semibold ${styles.methodsContainer}`}
+      >
         <option>GET</option>
         <option>POST</option>
         <option>PUT</option>
@@ -11,9 +13,14 @@ export const Toolbar = () => {
         <option>UPDATE</option>
       </select>
 
-      <input placeholder="https://googe.com" />
+      <input
+        className={`w-96 flex-1 ${styles.searchBar}`}
+        placeholder="https://googe.com"
+      />
 
-      <button>Send</button>
+      <button className={`flex-none text-lg font-bold ${styles.sendButton}`}>
+        Send
+      </button>
     </div>
   );
 };
