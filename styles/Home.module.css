@@ -28,13 +28,12 @@
 /* NAV */
 .logo {
   font-size: 2.5rem;
-  margin-bottom: 30px;
+  /* margin-bottom: 2rem; */
   text-align: left;
 }
 
 /* TOOLBAR */
 .toolbar {
-  border: solid 2px white;
   width: 100%;
   height: 100px;
 }

@@ -5,13 +5,13 @@
 }
 
 .toolbar {
-  padding: 15px;
+  padding: 15px 0px;
   height: 100%;
 }
 
 .toolbar * {
   height: 100%;
-  margin: 0px 3px;
+  margin: 0px 5px;
 }
 
 .searchBar {
