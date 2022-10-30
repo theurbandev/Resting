@@ -1,12 +1,16 @@
+.toolbar {
+  background-color: black;
+  position: fixed;
+  width: 88.5%;
+  padding: 15px 0px;
+  height: 100px;
+  top: 0;
+}
+
 .methodsContainer {
   text-align: center;
   background-color: transparent;
   border: solid 1px orange;
-}
-
-.toolbar {
-  padding: 15px 0px;
-  height: 100px;
 }
 
 .toolbar * {
