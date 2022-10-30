@@ -14,15 +14,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <nav>
-          <h1 className={styles.logo}>REST</h1>
-        </nav>
-        <section className={styles.toolbar}>
-          <Toolbar />
-        </section>
-        <section>
-          <Activity />
-        </section>
+        <h1 className={styles.logo}>REST</h1>
+        <Toolbar />
+        <Activity />
       </main>
     </div>
   );

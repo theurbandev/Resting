@@ -1,5 +1,11 @@
 .activity {
+  margin: 0px 5px;
+}
+
+.activitySettings {
   border: solid 1px white;
-  height: 100vh;
-  margin-top: 1rem;
+}
+
+.activityResponse {
+  border: solid 1px white;
 }
