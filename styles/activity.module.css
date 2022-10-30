@@ -12,3 +12,28 @@
   border: solid 1px white;
   height: 50%;
 }
+
+.formatButtons,
+.responseToggles {
+  margin: 15px;
+}
+
+.formatButtons h3 {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #525252;
+  margin: 0px 5px;
+  height: 40px;
+  line-height: 10px;
+  cursor: pointer;
+}
+
+.responseToggles h3 {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #525252;
+  margin: 0px 5px;
+  height: 40px;
+  line-height: 10px;
+  cursor: pointer;
+}
