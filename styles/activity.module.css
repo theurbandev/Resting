@@ -18,22 +18,13 @@
   margin: 15px;
 }
 
+.responseToggles h3,
 .formatButtons h3 {
   padding: 15px;
-  border-radius: 10px;
-  background-color: #525252;
+  border-radius: 11px;
+  background-color: #5e5e5e;
   margin: 0px 5px;
-  height: 40px;
-  line-height: 10px;
-  cursor: pointer;
-}
-
-.responseToggles h3 {
-  padding: 15px;
-  border-radius: 10px;
-  background-color: #525252;
-  margin: 0px 5px;
-  height: 40px;
-  line-height: 10px;
+  height: 30px;
+  line-height: 1px;
   cursor: pointer;
 }

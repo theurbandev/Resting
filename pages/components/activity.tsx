@@ -12,21 +12,7 @@ export const Activity = () => {
           <li className="nav-item" role="presentation">
             <a
               href="#tabs-home"
-              className="
-      nav-link
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
-      active
-    "
+              className=" nav-link block font-medium text-xs leading-tight border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent focus:border-transparent"
               id="tabs-home-tab"
               data-bs-toggle="pill"
               data-bs-target="#tabs-home"
@@ -34,26 +20,13 @@ export const Activity = () => {
               aria-controls="tabs-home"
               aria-selected="true"
             >
-              Home
+              POST Request
             </a>
           </li>
           <li className="nav-item" role="presentation">
             <a
               href="#tabs-profile"
-              className="
-      nav-link
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
-    "
+              className=" nav-link block font-medium text-xs leading-tight border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent focus:border-transparent"
               id="tabs-profile-tab"
               data-bs-toggle="pill"
               data-bs-target="#tabs-profile"
@@ -61,63 +34,7 @@ export const Activity = () => {
               aria-controls="tabs-profile"
               aria-selected="false"
             >
-              Profile
-            </a>
-          </li>
-          <li className="nav-item" role="presentation">
-            <a
-              href="#tabs-messages"
-              className="
-      nav-link
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
-    "
-              id="tabs-messages-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#tabs-messages"
-              role="tab"
-              aria-controls="tabs-messages"
-              aria-selected="false"
-            >
-              Messages
-            </a>
-          </li>
-          <li className="nav-item" role="presentation">
-            <a
-              href="#tabs-contact"
-              className="
-      nav-link
-      disabled
-      pointer-events-none
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
-    "
-              id="tabs-contact-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#tabs-contact"
-              role="tab"
-              aria-controls="tabs-contact"
-              aria-selected="false"
-            >
-              Contact
+              +
             </a>
           </li>
         </ul>
