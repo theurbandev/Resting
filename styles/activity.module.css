@@ -1,12 +1,36 @@
+/* ACTIVITY SECTION */
+
 .activity {
   margin: 0px 5px;
-  padding-top: 75px;
 }
 
 .activitySettings {
   border: solid 1px white;
   height: 50%;
 }
+
+.navTabs {
+  border-bottom: 1px solid;
+}
+
+.activeTab {
+  border-top: 7px solid #567713;
+}
+
+.initialTab {
+  border-right: solid 1px white;
+}
+
+.newTabBttn {
+  padding: 0px 13px;
+}
+
+.initialTab a,
+.newTabBttn a {
+  line-height: 37px;
+}
+
+/* RESPONSE SECTION */
 
 .activityResponse {
   border: solid 1px white;
