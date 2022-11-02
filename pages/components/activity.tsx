@@ -1,11 +1,17 @@
+import { useState } from "react";
 import styles from "./../../styles/activity.module.css";
 
-const activityTabList = [];
 const createNewTab = () => {
-  alert("new tab created");
+  console.log("new tab created");
+};
+
+const updateTabs = () => {
+  console.log("updating tabs");
 };
 
 export const Activity = () => {
+  const [activeTabs, updateTabs] = useState();
+
   return (
     <div className={`flex flex-col h-full ${styles.activity}`}>
       <div className={`${styles.activitySettings}`}>
@@ -15,34 +21,16 @@ export const Activity = () => {
           role="tablist"
         >
           <li
-            className={`${styles.initialTab} ${styles.activeTab} nav-item" role="presentation`}
+            id="tabs-home-tab"
+            className={`${styles.initialTab} ${styles.activeTab} nav-item" font-medium text-xs leading-tight px-6 py-3`}
           >
-            <a
-              href="#tabs-home"
-              className=" nav-link block font-medium text-xs leading-tight border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3"
-              id="tabs-home-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#tabs-home"
-              role="tab"
-              aria-controls="tabs-home"
-              aria-selected="true"
-            >
-              POST Request
-            </a>
+            POST Request
           </li>
-          <li className={` ${styles.newTabBttn} nav-item`} role="presentation">
-            <a
-              href="#tabs-profile"
-              className=" nav-link block font-medium text-md leading-tight border-x-0 border-t-0 border-b-2 border-transparent py-3"
-              id="tabs-profile-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#tabs-profile"
-              role="tab"
-              aria-controls="tabs-profile"
-              aria-selected="false"
-            >
-              +
-            </a>
+          <li
+            className={`${styles.newTabBttn} nav-item font-medium text-ms leading-tight px-6 py-3`}
+            onClick={createNewTab}
+          >
+            +
           </li>
         </ul>
       </div>

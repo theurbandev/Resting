@@ -22,12 +22,13 @@
 }
 
 .newTabBttn {
-  padding: 0px 13px;
+  cursor: pointer;
 }
 
-.initialTab a,
-.newTabBttn a {
+.initialTab,
+.newTabBttn {
   line-height: 37px;
+  user-select: none;
 }
 
 /* RESPONSE SECTION */
